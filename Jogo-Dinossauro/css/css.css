@@ -1,0 +1,108 @@
+/****
+Geral
+****/
+body{
+    margin:0;
+    padding:0;
+    font-size: 100%;
+
+}
+.purpleBG{
+    background-color: #8a59c2;
+}
+/****
+Header
+****/
+header{
+    width:100%;
+    position: fixed;
+    top: 0;
+    background-color: #6e09e2;
+    padding:0.5em;
+    color:#FFF;
+}
+.messages,
+.pointsDisplay{
+    font-size: 1em;
+    margin: 0.5em;
+    padding:0.5em;
+    font-weight: bold;
+    border: 1px solid #FFFFFF;
+    border-radius:10px 10px 2px 2px;
+}
+button.theme{
+    width: 50px;
+}
+img.themeButton{
+    width:100%;
+}
+.errorMessage{
+    color:red;
+}
+
+/****
+Principal
+****/
+main{
+    text-align: center;
+    color: #6e09e2;
+}
+.initialMessage{
+    font-size: 2em;
+}
+/****
+Jogo
+****/
+.avatar{
+    width:60px;
+    height:60px;
+    position:absolute;
+    bottom:0;
+}
+.dino{
+    background-image: url(../imagens/dino.png);
+}
+.mario{
+    background-image: url(../imagens/mario.png);
+}
+.obstacle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+
+}
+.cactus{
+    background-image: url(../imagens/cactus.png);
+}
+.bricks{
+    background-image: url(../imagens/bricks.png);
+}
+.play{
+    font-size: 1em;
+}
+
+/****
+Animação do fundo
+****/
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0px;
+
+    background-image: url(../imagens/background.png);
+    background-repeat: repeat-x;
+    animation: slideright 3600s infinite linear;
+    -webkit-animation: slideright 3600s infinite linear;
+    width: 100%;
+    height: 200px;
+}

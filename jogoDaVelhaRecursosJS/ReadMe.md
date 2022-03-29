@@ -1,2 +1,0 @@
-#Jogo da Velha
-Criei este Jogo da Velha para os recursos do meu curso de JS colocado na Udemy de uma maneira bem simples com JavaScript puro e coloco aqui para usar como referência para o desafio do Bootcamp.
