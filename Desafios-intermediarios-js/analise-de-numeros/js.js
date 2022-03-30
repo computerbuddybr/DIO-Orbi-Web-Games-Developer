@@ -29,7 +29,7 @@ let valoresNegativos = 0;
 let zeros = 0;
 
 //Lendo os valores
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     const valorInformadoPeloUsuario = parseInt(gets());
     valores.push(valorInformadoPeloUsuario);
 
@@ -61,7 +61,7 @@ console.log(`${valoresNegativos} negativo(s)`);
 //Para mostrar no HTML
 let html = "";
 html += '<p>Para os valores: ';
-for(i = 0; i < valores.length; i++){
+for(let i = 0; i < valores.length; i++){
     html += `${valores[i]} `;
 }
 html += '</p>';

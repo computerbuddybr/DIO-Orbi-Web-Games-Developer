@@ -34,7 +34,7 @@ for (let i = 0; i < limit; i++) {
 }
 //Mostrando no html
 let html = "";
-for(i = 0; i < valores.length; i++){
+for(let i = 0; i < valores.length; i++){
     html += `<p>O resultado da divisão de ${valores[i][0]} e ${valores[i][1]} é: ${valores[i][2]}</p>`;
 }
 res.innerHTML = html;

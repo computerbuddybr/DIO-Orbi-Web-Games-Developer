@@ -20,7 +20,7 @@ let matricula;
 let maiorNota = 0;
 
 
-for(i = 1; i <= alunos; i++){
+for(let i = 1; i <= alunos; i++){
     line = gets("Escreva primeiro a matricula do aluno e depois a nota separada por espaço");
     line = line.split(" ");
     if(parseFloat(line[1]) >= 8 && parseFloat(line[1]) > maiorNota){

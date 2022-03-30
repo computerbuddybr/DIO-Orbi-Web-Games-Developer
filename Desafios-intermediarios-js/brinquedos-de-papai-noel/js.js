@@ -16,7 +16,7 @@ const res = document.querySelector('#resultado');
 let participantes = parseInt(gets("Quantas crianças não enviaram sua cartinha?"));
 let criancas;
 let array = [];
-for(i = 1; i <= participantes; i++){
+for(let i = 1; i <= participantes; i++){
     criancas = gets("Favor digitar o nome da criança espaço M ou F dependendo do sexo").split(' ');
     console.log(criancas);
     array.push(criancas[1]);

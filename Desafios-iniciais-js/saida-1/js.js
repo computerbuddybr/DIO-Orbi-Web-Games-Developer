@@ -11,17 +11,17 @@ const resultado = document.querySelector('#resultado');
 let primeiraLinha = "";
 //O string que mostrará a imagem no HTML, não usar no print, falha o teste
 let resultadoFinal = "";
-for(i = 0; i < 39; i++){
+for(let i = 0; i < 39; i++){
     primeiraLinha += "-";
 }
 resultadoFinal += primeiraLinha + "\n";
 let tracoVertical = "|";
-for(i=1; i < 37; i++){
+for(let i=1; i < 37; i++){
     tracoVertical += " ";
 }
 tracoVertical += "|";
 print(primeiraLinha);
-for(i =0; i < 5; i++){
+for(let i =0; i < 5; i++){
     print(tracoVertical);
     resultadoFinal += tracoVertical + "\n";
 }
