@@ -1,0 +1,86 @@
+/****
+Geral
+****/
+body{
+    margin:0;
+    padding:0;
+    font-size: 100%;
+    background-color: #8a59c2;
+
+
+}
+.purpleBG{
+    background-color: #8a59c2;
+}
+/****
+Header
+****/
+img.drica{
+    width: 100px;
+}
+header{
+    width:100%;
+    background-color: #6e09e2;
+    padding:0.5em;
+    color:#FFF;
+}
+
+/****
+Jogo
+****/
+main{
+    padding: 5em;
+    background-color: #a170d9;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding-left: 45px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    box-shadow: 2px 2px #7a7373;
+    border-radius: 5px;
+}
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
+.green{
+    background-color:greenyellow;
+    color:#FFFFFF;
+    /*font-weight: bold;*/
+
+}
+.red{
+    background-color:red;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+.winner{
+    background-color:#6e09e2;
+}
+#reiniciar{
+    background-color: #6e09e2;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+#reiniciar:hover{
+    background-color: #d9009d;
+}
