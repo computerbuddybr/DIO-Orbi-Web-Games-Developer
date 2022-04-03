@@ -155,7 +155,7 @@ function createObstacle() {
 //Começa-se a criação dos obstáculos.
 createObstacle();
 
-//Trocando de tema
+//Trocando de tema. Neste usei os métodos add e remove em vez de toggle pois quero ter certeza de que essas ações estejam sendo feitas e não correr o risco de ficar com a classe errada.
 function themeChange(theme) {
     if (theme === 'mario') {
         avatar.classList.remove('dino');
