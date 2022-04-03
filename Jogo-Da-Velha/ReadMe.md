@@ -16,5 +16,5 @@ Alterei um pouco o CSS para dar leves alterações como o fundo das cores da min
 
 Foi muito interessante este exercício, pois no curso de JS que ministro na Udemy havia justamente criado para os alunos um Jogo Da Velha há dois anos. Foi bem legal ver como outro professor pensou diferente a resolução e como eu mesmo decidi misturar as duas resoluções, coisas minhas que achei melhor mudar depois de ver aqui e coisas minhas que decidi trazer aqui (como o array de sequências vencedoras, e os objetos de jogador), para facilitar o uso do código.
 
-Caso haja interesse de ver o projeto para os alunos da Udemy está aqui mesmo no GitHub em meu repositório [Recursos JS.](https://github.com/computerbuddybr/RecursosJS/tree/main/Aula%2036%20e%2037%20-%20Projeto%20Jogo%20da%20Velha)
+Caso haja interesse de ver o projeto para os alunos da Udemy, está aqui mesmo no GitHub em meu repositório [Recursos JS.](https://github.com/computerbuddybr/RecursosJS/tree/main/Aula%2036%20e%2037%20-%20Projeto%20Jogo%20da%20Velha)
 
