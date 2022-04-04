@@ -20,3 +20,5 @@ Devido aos níveis de dificuldade adicionados, mudei para que o jogo fosse recar
 
 Alterei o CSS na questão de opacity. Fiz o contrário. Os botões começam com uma opacity de 0.7 e ao serem selecionados ficam com opacity de 1. Achei que dava mais visibilidade e facilita o jogo.
 
+Havia um bug no original onde o remove class não funcionava, arrumei isto pois isto não permitia que se visse quando um botão era selecionado mais de uma vez.
+
