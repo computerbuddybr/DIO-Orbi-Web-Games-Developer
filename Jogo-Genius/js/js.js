@@ -184,7 +184,6 @@ function gameOver() {
  * Começando o jogo
  */
 function playGame() {
-    playing = true;
     score = 0;
     nextLevel();
 }
@@ -194,15 +193,35 @@ function playGame() {
  * @param event
  */
 function startingGame(event) {
+    playing = true;
     mainContent.removeChild(controls);
     playGame();
 }
 
 //Adicionando Event Listeners aos botões do Genius
-green.addEventListener('click', () => click(colors['green']));
-yellow.addEventListener('click', () => click(colors['yellow']));
-blue.addEventListener('click', () => click(colors['blue']));
-red.addEventListener('click', () => click(colors['red']));
+green.addEventListener('click', () => {
+    if(playing === true){
+        click(colors['green']);
+    }
+
+});
+yellow.addEventListener('click', () => {
+    if(playing === true){
+        click(colors['yellow']);
+    }
+
+});
+blue.addEventListener('click', () => {
+    if(playing === true){
+        click(colors['blue']);
+    }
+
+});
+red.addEventListener('click', () => {
+    if(playing === true){
+        click(colors['red']);
+    }
+});
 
 //Adicionando os EventListeners aos botões de dificuldade
 easy.addEventListener('click', () => {

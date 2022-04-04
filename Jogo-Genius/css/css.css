@@ -54,6 +54,9 @@ Jogo
 .geniusButtons{
     opacity: 0.7;
 }
+.geniusButtons:hover{
+    cursor: pointer;
+}
 .blue {
     grid-area: azul;
     background-color: blue;
@@ -83,6 +86,10 @@ button{
     margin: 0.1em;
     padding:0.5em;
     background-color: #d9009d;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(217, 0, 157, 0.62);
 }
 .selected {
     opacity: 1;
