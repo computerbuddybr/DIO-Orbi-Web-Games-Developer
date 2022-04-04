@@ -5,8 +5,7 @@ body{
     margin:0;
     padding:0;
     font-size: 100%;
-    background-color: #a170d9;
-    font-family: 'Lato', Arial, Verdana;
+    background-color: #8a59c2;
 
 
 }
@@ -17,15 +16,13 @@ body{
 Header
 ****/
 img.drica{
-    border-radius: 100%;
     width: 100px;
 }
 header{
     width:100%;
     background-color: #6e09e2;
     padding:0.5em;
-    text-align: center;
-    color:#FFFFFF;
+    color:#FFF;
 }
 
 /****
@@ -33,14 +30,7 @@ Jogo
 ****/
 main{
     padding: 5em;
-    with:100%;
-
-}
-.wrapper{
-    width:600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    background-color: #a170d9;
 }
 
 .quadrado {
@@ -48,8 +38,8 @@ main{
     width: 50px;
     background: #eee;
     display: inline-block;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 45px;
+    padding-right: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 60px;

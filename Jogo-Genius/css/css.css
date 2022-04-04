@@ -1,0 +1,93 @@
+/****
+Geral
+****/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a170d9;
+    font-family: 'Lato', Arial, Verdana;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/****
+Header
+****/
+
+img.drica {
+    border-radius: 100%;
+    width: 100px;
+}
+
+header {
+    width: 100%;
+    background-color: #6e09e2;
+    padding: 0.5em;
+    color: #FFF;
+    text-align: center;
+}
+
+/****
+Jogo
+****/
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+}
+
+.geniusButtons{
+    opacity: 0.7;
+}
+.blue {
+    grid-area: azul;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+button{
+    color:#FFFFFF;
+    font-size: 2em;
+    margin: 0.1em;
+    padding:0.5em;
+    background-color: #d9009d;
+}
+.selected {
+    opacity: 1;
+}
+
+.selectedLevel{
+    background-color: #6e09e2;
+}
