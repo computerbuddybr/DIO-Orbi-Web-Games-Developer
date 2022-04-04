@@ -68,7 +68,7 @@ Jogo
 
 .yellow {
     grid-area: amarelo;
-    background-color: yellow;
+    background-color: #d0d00b;
     border-bottom-left-radius: 100%;
 }
 
