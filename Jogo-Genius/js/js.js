@@ -42,9 +42,8 @@ const yellow = document.querySelector('.yellow');
 const playButton = document.querySelector('#play');
 
 //Selecionando botões de difuculdade
-const easy = document.querySelector('#easy');
-const medium = document.querySelector('#medium');
-const hard = document.querySelector('#hard');
+const levelButtons = document.querySelectorAll('.levels');
+
 
 //Selecionando todos os controles de ínicio de jogo e o main-content
 const mainContent = document.querySelector('#main-content');
@@ -162,14 +161,21 @@ function clearSelectedLevel() {
     hard.classList.remove('selectedLevel');
 }
 
-function changeDifficultyLevel(level, element) {
+function changeDifficultyLevel(event) {
     if (playing === false) {
-        speed = level;
-        clearSelectedLevel();
-        element.classList.add('selectedLevel');
+        speed = difficutlyLevels[event.path[0].id];
+        console.log(speed);
+        levelButtons.forEach((el)=>{
+            if(el.id === event.path[0].id){
+                el.classList.add('selectedLevel');
+            } else {
+                el.classList.remove('selectedLevel');
+            }
+        });
 
     }
 }
+
 
 /**
  * Terminando o jogo
@@ -224,15 +230,8 @@ red.addEventListener('click', () => {
 });
 
 //Adicionando os EventListeners aos botões de dificuldade
-easy.addEventListener('click', () => {
-    changeDifficultyLevel(difficutlyLevels['easy'], easy);
-});
-medium.addEventListener('click', () => {
-    changeDifficultyLevel(difficutlyLevels['medium'], medium);
-});
-hard.addEventListener('click', () => {
-    changeDifficultyLevel(difficutlyLevels['hard'], hard);
-});
+levelButtons.forEach((el)=> el.addEventListener('click', changeDifficultyLevel));
+
 //Adicionando EventListener para o botão de iniciar o jogo
 playButton.addEventListener('click', startingGame);
 

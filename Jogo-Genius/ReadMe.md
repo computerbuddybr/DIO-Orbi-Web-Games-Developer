@@ -1,4 +1,4 @@
-### Jogo De Naves
+### Jogo Genius
 
 **Enunciado:**
 

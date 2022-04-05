@@ -1,0 +1,103 @@
+/****
+Geral
+****/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(../imagens/avatarAdriana.png), url(../imagens/space.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom ;
+    font-family: 'Lato', Arial, Verdana;
+    color: #FFFFFF;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/****
+Jogo
+****/
+h2.game-instructions{
+    font-size:1em;
+}
+#main-play-area {
+    height: 600px;
+    width: 600px;
+
+}
+
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 7rem;
+    top: 0px;
+
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+.scoreBoard{
+    margin:1em;
+    padding:1em;
+    border: 0.5em solid #FFFFFF;
+    border-radius: 0 10%;
+
+}
+.selectedLevel{
+    background-color: #6e09e2;
+}
+button{
+    color:#FFFFFF;
+    font-size: 2em;
+    margin: 0.1em;
+    padding:0.5em;
+    background-color: #d9009d;
+    border-radius:10%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(217, 0, 157, 0.62);
+}
