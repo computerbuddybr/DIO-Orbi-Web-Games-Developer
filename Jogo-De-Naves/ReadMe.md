@@ -28,20 +28,21 @@ Para dificultar o jogo também adicionei perda de ponto ao perder amigos e perda
 Mas para incentivar atingir os inimigos em vez de ficar parado esperando amigos, se ganha energia ao atingir um helicóptero inimigo.
 
 
-Regras adaptadas:
-Você começa com uma energia de 3.
+**Regras adaptadas:**
+
+- Você começa com uma energia de 3.
 Cada vez que o seu helicóptero explode você perde 1 energia.
 
-Cada vez que você atinge um helicóptero inimigo você ganha 1 energia caso já tenha perdido alguma e ganha 100 pontos.
+- Cada vez que você atinge um helicóptero inimigo você ganha 1 energia caso já tenha perdido alguma e ganha 100 pontos.
 
-Cada vez que você atinge um caminhão você ganha 50 pontos.
+- Cada vez que você atinge um caminhão você ganha 50 pontos.
 
-Cada vez que você salva um amigo você ganha 150 pontos e 1 energia caso tenha perdido alguma.
+- Cada vez que você salva um amigo você ganha 150 pontos e 1 energia caso tenha perdido alguma.
 
-Cada vez que você perde um amigo você perde 1 energia e 50 pontos.
+- Cada vez que você perde um amigo você perde 1 energia e 50 pontos.
 
-Seu objetivo é acabar com a maior pontuação, salvar o maior número de vidas e perder o menor número de amigos a serem resgatados. O jogo termina quando você perde toda a energia.
+- Seu objetivo é acabar com a maior pontuação, salvar o maior número de vidas e perder o menor número de amigos a serem resgatados. O jogo termina quando você perde toda a energia.
 
-A medida que você for atingido inimigos a velocidade deles vai aumentando!
+- A medida que você for atingido inimigos a velocidade deles vai aumentando!
 
 
