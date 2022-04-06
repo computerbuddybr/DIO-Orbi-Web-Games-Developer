@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Naves por Adriana Cerdeira</title>
+  <link rel="stylesheet" href="css/css.css">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+<header>
+  <a href="http://adrianacerdeira.info" target="_blank"> <img src="imagens/avatarAdriana.png" alt="Avatar da Adriana" class="drica"></a>
+
+  <h1 class="header">Jogo De Naves</h1>
+
+</header>
+<main>
+    <div id="container">
+
+        <div id="fundoGame">
+
+            <div id="inicio" onclick="start()"><h1> Resgate </h1>
+                <p>Utilize a tecla W para movimentar o helicóptero para cima, a tecla S para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p id="iniciarJogo"> Clique aqui para iniciar!! </p>
+                <h2 class="regras">Regras</h2>
+                <p>
+                    A sua função é salvar a maior quantidade de amigos possível e perder o menor número de amigos possível. Seu helicóptero começa com 3 energias e perde 1 energia cada vez que é atingido ou perde um amigo. Ao chegar em 0 energias o jogo acaba. Mas não se desespere. Atingindo o helicóptero inimigo e salvando amigos você pode recuperar energias. 3 energias são o máximo que você pode ter.
+                </p>
+                <ul>
+                    <li>Você ganha 150 pontos ao salvar um amigo e recupera 1 energia caso tenha perdido.</li>
+                    <li>Você ganha 100 pontos ao atingir um helicóptero inimigo e recupera 1 energia caso tenha perdido.</li>
+                    <li>Você ganha 50 pontos ao atingir um helicóptero inimigo.</li>
+                    <li>Você perde 50 pontos e 1 energia ao ser atingido por um inimigo.</li>
+                    <li>Você perde 50 pontos e 1 energia ao perder um amigo.</li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Sons do jogo !-->
+    <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+</main>
+<!--jQuery e jQuery Collision-->
+<script src="js/jqueryprof/jquery-1.11.1.min.js" ></script>
+<script src="js/jqueryprof/jquery-collision.min.js" ></script>
+<!--Meu Script-->
+<script src="js/js.js" charset="UTF-8" defer></script>
+
+
+</body>
+</html>
